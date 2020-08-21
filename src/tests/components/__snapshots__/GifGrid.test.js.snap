@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <GifGrid/> should show <GifGrid/> correctly 1`] = `
+<Fragment>
+  <h3>
+    spinetta
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing <GifGrid/> should show items when data is avaible 1`] = `
+<Fragment>
+  <h3>
+    spinetta
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABCD"
+      key="ABCD"
+      title="Something"
+      url="http://localhost/test/something"
+    />
+  </div>
+</Fragment>
+`;
